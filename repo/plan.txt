@@ -1,1 +1,19 @@
+At the beginning of the method, we find the current time, set it as a new variable.
+At the end of the method, we find the time.
+Take the difference of the two times and set that as our new time variable, and now
+we have recorded the time the method took to find the target.
 
+Our hypothesis:
+
+Binary search will take less time than linear search because binary search will take less
+"guesses". This is because linear search takes the most extreme indexes (the first or the last one)
+and iterates through the entire array, wasting a lot of time. Binary search looks for the middle guesses,
+which can also be asserted as the "savviest" guess because it eliminates half of the options for each guess.
+
+How we plan to test:
+
+Test for amount of time linear search takes vs binary search for arrays with varying sizes.
+All targets will be completely randomized to account for probability of having the best and worst case scenarios
+for linear search.
+We run a lot of tests: different arrays with differing array lengths as well as different targets across multiple test cases
+for a single array.
