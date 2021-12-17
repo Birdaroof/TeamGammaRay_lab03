@@ -13,7 +13,11 @@ which can also be asserted as the "savviest" guess because it eliminates half of
 How we plan to test:
 
 Test for amount of time linear search takes vs binary search for arrays with varying sizes.
-All targets will be completely randomized to account for probability of having the best and worst case scenarios
+All targets (indexes) will be completely randomized to account for probability of having the best and worst case scenarios
 for linear search.
 We run a lot of tests: different arrays with differing array lengths as well as different targets across multiple test cases
 for a single array.
+
+Only the search will happen between the two time measurements, print statements will come after last time measurement.
+
+We will also test the speed of the iterative and recursive searches to find out if there is any difference between them.
