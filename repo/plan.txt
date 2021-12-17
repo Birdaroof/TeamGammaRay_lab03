@@ -5,7 +5,7 @@ we have recorded the time the method took to find the target.
 
 Our hypothesis:
 
-Binary search will take less time than linear search because binary search will take less
+Binary search will take less time on average than linear search because binary search will take less
 "guesses". This is because linear search takes the most extreme indexes (the first or the last one)
 and iterates through the entire array, wasting a lot of time. Binary search looks for the middle guesses,
 which can also be asserted as the "savviest" guess because it eliminates half of the options for each guess.
