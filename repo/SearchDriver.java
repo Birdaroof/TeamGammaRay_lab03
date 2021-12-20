@@ -65,6 +65,26 @@ public class SearchDriver{
     output += "]";
     return output;
   }
+  
+  public static long averageTestTime(int[][] results){
+    int binary = 0;
+    int linear = 0;
+    for (int i = 0; i < results.length; i++){
+      if (i == 0){
+        for (int i = 0; i < results[0].length; i++){
+          binary += results[0][i];
+        }
+      } else {
+        for (int i = 0; i < results[0].length; i++){
+          linear += results[1][i]
+          }
+      }
+    }
+    binary = binary / results[0].length;
+    linear = linear / results[1].length;
+    System.out.println("Binary Average" + binary);
+    System.out.println("Linear Average" + linear);
+  }
 
   public static void main(String[] args){
     //declares array of integers to be filled in ascending order
