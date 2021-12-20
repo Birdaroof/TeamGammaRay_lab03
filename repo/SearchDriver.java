@@ -15,7 +15,9 @@ public class SearchDriver{
 
   public static long testTimeB(Comparable[] input, int target) {
     long startTimeB = System.currentTimeMillis();
-    BinSearch.binSearch(input, target);
+    for (int i = 0; i < 100; i++){
+      BinSearch.binSearch(input, target);
+    }
     long endTimeB = System.currentTimeMillis();
     long resultB = endTimeB - startTimeB;
     return resultB;
@@ -23,7 +25,9 @@ public class SearchDriver{
 
   public static long testTimeL(Comparable[] input, int target) {
     long startTimeL = System.currentTimeMillis();
-    LinSearch.linSearch(input, target);
+    for (int i =0; i< 100; i++){
+      LinSearch.linSearch(input, target);
+    }
     long endTimeL = System.currentTimeMillis();
     long resultL = endTimeL - startTimeL;
     return resultL;
