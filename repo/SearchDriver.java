@@ -76,7 +76,7 @@ public class SearchDriver{
         }
       } else {
         for (int i = 0; i < results[0].length; i++){
-          linear += results[1][i]
+          linear += results[1][i];
           }
       }
     }
@@ -142,10 +142,17 @@ public class SearchDriver{
     print2DArray(results4);
     print2DArray(results5);
     print2DArray(results6);
-
+    
+    averageTestTime(results1);
+    averageTestTime(results2);
+    averageTestTime(results3);
+    averageTestTime(results4);
+    averageTestTime(results5);
+    averageTestTime(results6);
     //things to add: something to find the average time, in milliseconds to find out which is faster
     //maybe print out the random array?
     //fix the binary search thing so it gives actual numbers (unless it actually is that fast)
     //something to test out speed of binary search recursive vc binary search iterative
   }
 }
+
