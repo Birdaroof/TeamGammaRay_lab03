@@ -1,4 +1,4 @@
-/*
+
 TNPG: GammaRay, Jun Hong Wang + Bob, Jomin Zhang + Chompsky, + Kevin Xiao + Mr. Swag
 APCS PD6
 Lab03 - Get Empirical
@@ -13,4 +13,3 @@ nanoTime(), this put the actual time at 4.25-4.35ms.
 
 QCC:
 Pretty much as expected, the Binary Search algorithm for the smallest array took pretty much no time. 
-*/
