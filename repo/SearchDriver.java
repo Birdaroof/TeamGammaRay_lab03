@@ -100,12 +100,12 @@ public class SearchDriver{
     populateArray(six);
 
     //populates the random arrays with integers in the range 0 to 2nd argument - 1
-    populateRandom(randomNums1, 100000);
-    populateRandom(randomNums2, 200000);
-    populateRandom(randomNums3, 500000);
-    populateRandom(randomNums4, 1000000);
-    populateRandom(randomNums5, 5000000);
-    populateRandom(randomNums6, 50000000);
+    populateRandom(randomNums1, 1000000);
+    populateRandom(randomNums2, 2000000);
+    populateRandom(randomNums3, 5000000);
+    populateRandom(randomNums4, 10000000);
+    populateRandom(randomNums5, 80000000);
+    populateRandom(randomNums6, 160000000);
 
     //fills the result arrays
     fillResults(one, randomNums1, results1);
