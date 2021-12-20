@@ -68,12 +68,12 @@ public class SearchDriver{
 
   public static void main(String[] args){
     //declares array of integers to be filled in ascending order
-    Comparable[] one = new Integer[100000];
-    Comparable[] two = new Integer[200000];
-    Comparable[] three = new Integer[500000];
-    Comparable[] four = new Integer[1000000];
-    Comparable[] five = new Integer[5000000];
-    Comparable[] six = new Integer[50000000];
+    Comparable[] one = new Integer[1000000];
+    Comparable[] two = new Integer[2000000];
+    Comparable[] three = new Integer[5000000];
+    Comparable[] four = new Integer[10000000];
+    Comparable[] five = new Integer[80000000];
+    Comparable[] six = new Integer[1600000000];
 
     //declares array of integers to be filled by random numbers
     Integer[] randomNums1 = new Integer[50];
