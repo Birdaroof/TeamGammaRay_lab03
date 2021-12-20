@@ -66,7 +66,7 @@ public class SearchDriver{
     return output;
   }
   
-  public static long averageTestTime(int[][] results){
+  public static void averageTestTime(int[][] results){
     int binary = 0;
     int linear = 0;
     for (int i = 0; i < results[0].length; i++){
