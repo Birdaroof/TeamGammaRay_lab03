@@ -105,7 +105,7 @@ public class SearchDriver{
     populateRandom(randomNums3, 5000000);
     populateRandom(randomNums4, 10000000);
     populateRandom(randomNums5, 70000000);
-    populateRandom(randomNums6, 75000000);
+    populateRandom(randomNums6, 80000000);
 
     //fills the result arrays
     fillResults(one, randomNums1, results1);
