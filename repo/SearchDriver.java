@@ -135,13 +135,14 @@ public class SearchDriver{
     fillResults(six, randomNums6, results6);
 
     //prints it out for easy viewing
+/*
     print2DArray(results1);
     print2DArray(results2);
     print2DArray(results3);
     print2DArray(results4);
     print2DArray(results5);
     print2DArray(results6);
-    
+  */  
     averageTestTime(results1);
     averageTestTime(results2);
     averageTestTime(results3);
