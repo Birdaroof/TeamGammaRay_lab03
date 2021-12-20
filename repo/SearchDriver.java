@@ -72,8 +72,8 @@ public class SearchDriver{
     Comparable[] two = new Integer[2000000];
     Comparable[] three = new Integer[5000000];
     Comparable[] four = new Integer[10000000];
-    Comparable[] five = new Integer[80000000];
-    Comparable[] six = new Integer[1000000000];
+    Comparable[] five = new Integer[70000000];
+    Comparable[] six = new Integer[800000000];
 
     //declares array of integers to be filled by random numbers
     Integer[] randomNums1 = new Integer[50];
