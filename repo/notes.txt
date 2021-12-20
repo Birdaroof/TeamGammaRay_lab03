@@ -10,5 +10,7 @@ When testing out the currentTimeMillis() method, we found out that it was kind o
 Each operating system measures time differently, and the smallest amount of time actually measured is probably bigger than 1ms.
 When we tested it out, we made a for loop that iterated 50000 times, and it only took 0-1ms, but when we used a different method,
 nanoTime(), this put the actual time at 4.25-4.35ms.
+
 QCC:
+Pretty much as expected, the Binary Search algorithm for the smallest array took pretty much no time. 
 */
