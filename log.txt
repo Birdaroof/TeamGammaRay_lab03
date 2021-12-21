@@ -28,6 +28,6 @@ Lab03 - Get Empirical
   - Updated linear search so that it always searches for the worst case scenario thanks to QAF traffic clarifying.
   - Created a for loop for linear and binary search so that they iterate the same process through array multiple times to produce visible results in binary.
   This circumvents the space issue you get from creating large arrays.
-  - Our loop iterates binary search 10,000 times and linear search 10 times, linear search still being way slower than binary search. (We couldn't iterate
-  linear search 10,000 or else our program simply overloaded and didn't run).
+  - Our loop iterates binary search 100,000 times and linear search 10 times, linear search still being way slower than binary search. (We couldn't iterate
+  linear search 100,000 or else our program simply overloaded and didn't run).
   - Added Hypothesis, Tests Performed, Results, and Conclusions to our Readme File.
