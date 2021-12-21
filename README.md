@@ -15,3 +15,4 @@ Linear search will be slowest if the target element is the last element of the a
 
 Binary search on average is a lot faster than linear search, most of the time returning a value of 0 milliseconds for search time. 
 Linear search on the other hand is very inefficient, making runtimes very long, and consuming a lot of memory. 
+Linear quickly becomes very inefficient, especially in very long arrays. 
