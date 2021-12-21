@@ -23,7 +23,7 @@ public class SearchDriver{
     return resultB;
   }
 
-  public static long testTimeL(Comparable[] input,) {
+  public static long testTimeL(Comparable[] input) {
     long startTimeL = System.currentTimeMillis();
     for (int i =0; i< 10; i++){
       LinSearch.linSearch(input, input[-1]);
