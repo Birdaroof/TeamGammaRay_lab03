@@ -127,12 +127,12 @@ public class SearchDriver{
     populateRandom(randomNums6, 8000000);
 
     //fills the result arrays
-    fillResults(one, randomNums1, results1);
-    fillResults(two, randomNums2, results2);
-    fillResults(three, randomNums3, results3);
-    fillResults(four, randomNums4, results4);
-    fillResults(five, randomNums5, results5);
-    fillResults(six, randomNums6, results6);
+    fillResults(one, results1);
+    fillResults(two, results2);
+    fillResults(three, results3);
+    fillResults(four, results4);
+    fillResults(five, results5);
+    fillResults(six, results6);
 
     //prints it out for easy viewing
 /*
