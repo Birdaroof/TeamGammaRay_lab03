@@ -18,7 +18,7 @@ For linear search, we iterated through every case 10 times, and for binary searc
 Even with us iterating through every binary search case 10,000 times, binary search was still much faster than linear search. 
 When we tried iterating through every linear search case 10,000 times to match binary search, our code take a long time to run. 
 
-### Output of code: 
+### Output of code (ms): 
 ```java
 100,000 length
 Binary Average: 0
@@ -43,5 +43,4 @@ Linear Average: 138
 ## Conclusion: 
 
 Binary search on average is a lot faster than linear search, most of the time returning a value of 0 milliseconds for search time. 
-Linear search on the other hand is very inefficient, making runtimes very long, and consuming a lot of memory. 
-Linear quickly becomes very inefficient, especially in very long arrays. 
+Linear search is very inefficient, quickly becoming slow to run, especially for longer arrays and more iterations. 
