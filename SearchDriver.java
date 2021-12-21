@@ -13,10 +13,10 @@ public class SearchDriver{
     }
   }
 
-  public static long testTimeB(Comparable[] input, int target) {
+  public static long testTimeB(Comparable[] input) {
     long startTimeB = System.currentTimeMillis();
     for (int i = 0; i < 100000; i++){
-      BinSearch.binSearch(input, target);
+      BinSearch.binSearch(input, input[input.length-1]);
     }
     long endTimeB = System.currentTimeMillis();
     long resultB = endTimeB - startTimeB;
@@ -49,9 +49,9 @@ public class SearchDriver{
     System.out.println(output);
   }
 
-  public static void fillResults(Comparable[] input, Integer[] randoms, int[][] results) {
+  public static void fillResults(Comparable[] input, int[][] results) {
     for (int i = 0; i < 50; i++) {
-      results[0][i] += testTimeB(input, randoms[i]);
+      results[0][i] += testTimeB(input);
       results[1][i] += testTimeL(input);
     }
   }
