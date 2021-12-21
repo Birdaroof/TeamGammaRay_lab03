@@ -52,7 +52,7 @@ public class SearchDriver{
   public static void fillResults(Comparable[] input, Integer[] randoms, int[][] results) {
     for (int i = 0; i < 50; i++) {
       results[0][i] += testTimeB(input, randoms[i]);
-      results[1][i] += testTimeL(input, input[-1]);
+      results[1][i] += testTimeL(input);
     }
   }
 
