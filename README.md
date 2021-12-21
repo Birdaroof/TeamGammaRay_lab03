@@ -21,23 +21,23 @@ When we tried iterating through every linear search case 10,000 times to match b
 ### Output of code (ms): 
 ```java
 100,000 length
-Binary Average: 0
-Linear Average: 0
+Binary Average: 3
+Linear Average: 1
 200,000 length
-Binary Average: 0
+Binary Average: 2
 Linear Average: 1
 500,000 length
-Binary Average: 1
-Linear Average: 5
+Binary Average: 3
+Linear Average: 7
 1,000,000 length
-Binary Average: 0
-Linear Average: 16
+Binary Average: 3
+Linear Average: 17
 7,000,000 length
-Binary Average: 0
-Linear Average: 118
+Binary Average: 3
+Linear Average: 119
 8,000,000 length
-Binary Average: 0
-Linear Average: 138
+Binary Average: 3
+Linear Average: 141
 ```
 
 ## Conclusion: 
