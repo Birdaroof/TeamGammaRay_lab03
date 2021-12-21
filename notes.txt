@@ -11,7 +11,7 @@ When we tested it out, we made a for loop that iterated 50000 times, and it only
 nanoTime(), this put the actual time at 4.25-4.35ms.
 Binary search is wildly efficient, being able to find an index of an array of length 8 million and find the index of that array 10,000 times in only
 6 milliseconds on average.
-Binary search is so much more efficient that linear search, that 10,000 iterations of binary search is still leagues above efficiency of just 10 iterations of linear search, given that the array is at least 100,000 in length.
+Binary search is so much more efficient that linear search, that 100,000 iterations of binary search is still leagues above efficiency of just 10 iterations of linear search, given that the array is at least 100,000 in length.
 
 QCC:
 Pretty much as expected, the Binary Search algorithm for the smallest array took pretty much no time. 
