@@ -23,10 +23,10 @@ public class SearchDriver{
     return resultB;
   }
 
-  public static long testTimeL(Comparable[] input, int target) {
+  public static long testTimeL(Comparable[] input,) {
     long startTimeL = System.currentTimeMillis();
     for (int i =0; i< 10; i++){
-      LinSearch.linSearch(input, target);
+      LinSearch.linSearch(input, input[-1]);
     }
     long endTimeL = System.currentTimeMillis();
     long resultL = endTimeL - startTimeL;
@@ -52,7 +52,7 @@ public class SearchDriver{
   public static void fillResults(Comparable[] input, Integer[] randoms, int[][] results) {
     for (int i = 0; i < 50; i++) {
       results[0][i] += testTimeB(input, randoms[i]);
-      results[1][i] += testTimeL(input, randoms[i]);
+      results[1][i] += testTimeL(input, input[-1]);
     }
   }
 
