@@ -81,8 +81,8 @@ public class SearchDriver{
     }
     binary = binary / results[0].length;
     linear = linear / results[1].length;
-    System.out.println("Binary Average" + binary);
-    System.out.println("Linear Average" + linear);
+    System.out.println("Binary Average: " + binary);
+    System.out.println("Linear Average: " + linear);
   }
 
   public static void main(String[] args){
