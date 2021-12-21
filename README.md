@@ -7,9 +7,16 @@ Linear search will be faster if the target element is very close to the beginnin
 Binary search will be slowest if the target element is the first or last element of the array. 
 Linear search will be slowest if the target element is the last element of the array, or if it doesn't exist. 
 
+## Tests Performed:
+
+We generated arrays of length 50, filled with random Integers as test cases. 
+Binary and linear searches on arrays of length: 100,000, 200,000, 500,000, 1,000,000, 7,000,000, 8,000,000. 
+For linear search, we iterated through every case 10 times, and for binary search, we iterated through 10,000 times (to produce more visible results).
+
 ## Results: 
 
-
+Even with us iterating through every binary search case 10,000 times, binary search was still much faster than linear search. 
+When we tried iterating through every linear search case 10,000 times to match binary search, our code take a long time to run. 
 
 ## Conclusion: 
 
