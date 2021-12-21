@@ -18,6 +18,7 @@ For linear search, we iterated through every case 10 times, and for binary searc
 Even with us iterating through every binary search case 10,000 times, binary search was still much faster than linear search. 
 When we tried iterating through every linear search case 10,000 times to match binary search, our code take a long time to run. 
 
+### Output of code: 
 ```java
 100,000 length
 Binary Average: 0
