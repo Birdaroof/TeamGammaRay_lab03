@@ -11,6 +11,7 @@
   - Reviewed and updated plan
 12/19/21 7:00 PM
   - Created methods to populate arrays, test times, fill out result arrays, and find average time
+  - Created 6 test cases of arrays with varying length.
   - Jun Hong suggested creating a print method
   - Created a print method
   - Java ran out of heap space
@@ -18,3 +19,8 @@
 12/20/21 12:00 PM
   - Updated methods
   - Kevin suggested that print method was making the file take too long to compile and run
+12/20/21 9:20 PM
+  - Updated linear search so that it always searches for the worst case scenario thanks to QAF traffic clarifying.
+  - Created a for loop for linear and binary search so that they iterate the same process through array multiple times to produce visible results in binary.
+  This circumvents the space issue you get from creating large arrays.
+  - Added ReadMe Tests Performed, Results, and Conclusions
