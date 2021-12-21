@@ -1,3 +1,8 @@
+TNPG: GammaRay, Jun Hong Wang + Bob, Jomin Zhang + Chompsky, + Kevin Xiao + Mr. Swag
+APCS PD6
+Lab03 - Get Empirical
+2021-12-16
+
 12/16/21 7:00 PM
   - Created plan + hypothesis 
 12/17/21 12:21 AM
@@ -23,4 +28,4 @@
   - Updated linear search so that it always searches for the worst case scenario thanks to QAF traffic clarifying.
   - Created a for loop for linear and binary search so that they iterate the same process through array multiple times to produce visible results in binary.
   This circumvents the space issue you get from creating large arrays.
-  - Added ReadMe Tests Performed, Results, and Conclusions
+  - Added Hypothesis, Tests Performed, Results, and Conclusions to our Readme File.
