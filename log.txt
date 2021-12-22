@@ -33,3 +33,5 @@ Lab03 - Get Empirical
   - Added Hypothesis, Tests Performed, Results, and Conclusions to our Readme File.
 12/21/21 8:00 PM
   - Updated notes.txt with gallery tour section
+  - Average time not displays float
+  - Extra test cases for smaller arrays added
