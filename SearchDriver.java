@@ -16,7 +16,7 @@ public class SearchDriver{
 
   public static long testTimeB(Comparable[] input) {
     long startTimeB = System.currentTimeMillis();
-    for (int i = 0; i < 1000; i++){
+    for (int i = 0; i < 10000; i++){
       BinSearch.binSearch(input, input[input.length-1]);
     }
     long endTimeB = System.currentTimeMillis();
@@ -26,7 +26,7 @@ public class SearchDriver{
 
   public static long testTimeL(Comparable[] input) {
     long startTimeL = System.currentTimeMillis();
-    for (int i =0; i< 1000; i++){
+    for (int i =0; i< 10000; i++){
       LinSearch.linSearch(input, input[input.length-1]);
     }
     long endTimeL = System.currentTimeMillis();
@@ -51,7 +51,7 @@ public class SearchDriver{
   }
 
   public static void fillResults(Comparable[] input, int[][] results) {
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 5; i++) {
       results[0][i] += testTimeB(input);
       results[1][i] += testTimeL(input);
     }
@@ -95,7 +95,6 @@ public class SearchDriver{
     Comparable[] five = new Integer[100000];
     Comparable[] six = new Integer[200000];
     Comparable[] seven = new Integer[500000];
-    Comparable[] eight = new Integer[1000000];
     //declares array of integers to be filled by random numbers
     /*
     Integer[] randomNums1 = new Integer[50];
@@ -107,14 +106,13 @@ public class SearchDriver{
     */
 
     //declares array of results (time it took for the search to run)
-    int[][] results1 = new int[2][50];
-    int[][] results2 = new int[2][50];
-    int[][] results3 = new int[2][50];
-    int[][] results4 = new int[2][50];
-    int[][] results5 = new int[2][50];
-    int[][] results6 = new int[2][50];
-    int[][] results7 = new int[2][50];
-    int[][] results8 = new int[2][50];  
+    int[][] results1 = new int[2][5];
+    int[][] results2 = new int[2][5];
+    int[][] results3 = new int[2][5];
+    int[][] results4 = new int[2][5];
+    int[][] results5 = new int[2][5];
+    int[][] results6 = new int[2][5];
+    int[][] results7 = new int[2][5];
     //populates each of the arrays
     populateArray(one);
     populateArray(two);
@@ -123,7 +121,6 @@ public class SearchDriver{
     populateArray(five);
     populateArray(six);
     populateArray(seven);
-    populateArray(eight);
     
     //populates the random arrays with integers in the range 0 to 2nd argument - 1
     /*
@@ -147,7 +144,6 @@ public class SearchDriver{
     fillResults(five, results5);
     fillResults(six, results6);
     fillResults(seven, results7);
-    fillResults(eight, results8);
 /*
     print2DArray(results1);
     print2DArray(results2);
@@ -162,8 +158,7 @@ public class SearchDriver{
     averageTestTime(results4);
     averageTestTime(results5);
     averageTestTime(results6);
-    averageTestTime(results7);
-    averageTestTime(results8);   
+    averageTestTime(results7);  
   }
 }
 
