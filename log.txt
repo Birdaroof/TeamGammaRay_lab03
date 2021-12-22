@@ -35,3 +35,4 @@ Lab03 - Get Empirical
   - Updated notes.txt with gallery tour section
   - Average time not displays float
   - Extra test cases for smaller arrays added
+  - populateRandom() commented out, no longer needed/old code
