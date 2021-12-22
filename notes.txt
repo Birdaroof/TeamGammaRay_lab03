@@ -17,3 +17,26 @@ QCC:
 Pretty much as expected, the Binary Search algorithm for the smallest array took pretty much no time. 
 Why were we not allowed to use nanotime?
 
+GALLERY TOUR:
+  Team AllBrians:
+    - used tables in to display data
+    - max array size 100,000,000, otherwise they had to increase heap size
+    - similar tests, similar results
+      - linear is faster for short arrays, binary for longer arrays
+    - interesting occurence: max time for index sometimes < min time for index
+      - not unique to just very small arrays, can happen to arrays of 10,000 as well
+      
+  - Team emp_JWJ:
+    - max array length 2^27, array length 2^n
+    - average returns doubles, fractions of a second
+    - randomly generated targets, 20 iterations each
+      - no hard set best/worst case scenario
+  
+  - Team Four: 
+    - 3 scenarios:
+      - Searching when target is present
+      - Searching when target is not present
+      - Finding the minimum length of the array for binary search to become faster than linear search
+    - did not randomize tests, instead searched for every element in an array
+    - limit for length was 5,000,000, otherwise it would continually run (not heap error)
+    - runs until binary time - linear time is negative
