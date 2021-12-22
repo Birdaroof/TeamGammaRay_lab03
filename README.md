@@ -20,24 +20,27 @@ When we tried iterating through every linear search case 100,000 times to match 
 
 ### Output of code (ms): 
 ```java
-100,000 length
-Binary Average: 2
-Linear Average: 0
-200,000 length
-Binary Average: 2
-Linear Average: 1
-500,000 length
-Binary Average: 3
-Linear Average: 8
-1,000,000 length
-Binary Average: 3
-Linear Average: 16
-7,000,000 length
-Binary Average: 3
-Linear Average: 121
-8,000,000 length
-Binary Average: 3
-Linear Average: 129
+Length 100
+Binary Average: 0.8
+Linear Average: 2.6
+Length 1,000
+Binary Average: 0.0
+Linear Average: 8.0
+Length 10,000
+Binary Average: 0.2
+Linear Average: 67.6
+Length 50,000
+Binary Average: 0.2
+Linear Average: 324.8
+Length 100,000
+Binary Average: 0.2
+Linear Average: 651.6
+Length 200,000
+Binary Average: 0.4
+Linear Average: 1304.8
+Length 500,000
+Binary Average: 0.2
+Linear Average: 4515.8
 ```
 
 ## Conclusion: 
@@ -45,3 +48,6 @@ Linear Average: 129
 Binary search on average is a lot faster than linear search, most of the time returning a value of 0 milliseconds for search time. 
 Linear search is very inefficient, quickly becoming slow to run, especially for longer arrays and more iterations. 
 In the worst case scenario, linear search wins out for shorter arrays, but as the array gets larger, binary search wins. 
+
+Binary search is always better than linear search in the worst case scenario. 
+This is especially true as the arrays get larger and larger, since the difference in times gets larger and larger, in favor of binary search. 
