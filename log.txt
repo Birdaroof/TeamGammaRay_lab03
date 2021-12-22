@@ -31,3 +31,5 @@ Lab03 - Get Empirical
   - Our loop iterates binary search 100,000 times and linear search 10 times, linear search still being way slower than binary search. (We couldn't iterate
   linear search 100,000 or else our program simply overloaded and didn't run).
   - Added Hypothesis, Tests Performed, Results, and Conclusions to our Readme File.
+12/21/21 8:00 PM
+  - Updated notes.txt with gallery tour section
