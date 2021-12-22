@@ -10,8 +10,8 @@ Linear search will be slowest if the target element is the last element of the a
 ## Tests Performed:
 
 We generated arrays of length 50, filled with random Integers as test cases. 
-Binary and linear searches on arrays of length: 100,000, 200,000, 500,000, 1,000,000, 7,000,000, 8,000,000. 
-For linear search, we iterated through every case 10 times, and for binary search, we iterated through 100,000 times (to produce more visible results).
+Binary and linear searches on arrays of length: 100, 1,000, 10,000, 50,000, 100,000, 200,000, 500,000 
+For each of the searches, we iterate through the test cases 10,00 times each, to get more accurate averages. 
 
 ## Results: 
 
