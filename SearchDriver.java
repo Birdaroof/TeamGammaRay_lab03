@@ -6,12 +6,13 @@ public class SearchDriver{
       input[i] = i;
     }
   }
-
+/*
   public static void populateRandom(Integer[] input, int size) {
     for (int i = 0; i < input.length; i++) {
       input[i] = (int)(Math.random()*size);
     }
   }
+  */
 
   public static long testTimeB(Comparable[] input) {
     long startTimeB = System.currentTimeMillis();
@@ -25,7 +26,7 @@ public class SearchDriver{
 
   public static long testTimeL(Comparable[] input) {
     long startTimeL = System.currentTimeMillis();
-    for (int i =0; i< 10; i++){
+    for (int i =0; i< 100000; i++){
       LinSearch.linSearch(input, input[input.length-1]);
     }
     long endTimeL = System.currentTimeMillis();
@@ -87,20 +88,23 @@ public class SearchDriver{
 
   public static void main(String[] args){
     //declares array of integers to be filled in ascending order
-    Comparable[] one = new Integer[100000];
-    Comparable[] two = new Integer[200000];
-    Comparable[] three = new Integer[500000];
-    Comparable[] four = new Integer[1000000];
-    Comparable[] five = new Integer[7000000];
-    Comparable[] six = new Integer[8000000];
-
+    Comparable[] one = new Integer[100];
+    Comparable[] two = new Integer[1000];
+    Comparable[] three = new Integer[10000];
+    Comparable[] four = new Integer[50000];
+    Comparable[] five = new Integer[100000];
+    Comparable[] six = new Integer[200000];
+    Comparable[] seven = new Integer[500000];
+    Comparable[] eight = new Integer[1000000];
     //declares array of integers to be filled by random numbers
+    /*
     Integer[] randomNums1 = new Integer[50];
     Integer[] randomNums2 = new Integer[50];
     Integer[] randomNums3 = new Integer[50];
     Integer[] randomNums4 = new Integer[50];
     Integer[] randomNums5 = new Integer[50];
     Integer[] randomNums6 = new Integer[50];
+    */
 
     //declares array of results (time it took for the search to run)
     int[][] results1 = new int[2][50];
@@ -109,7 +113,8 @@ public class SearchDriver{
     int[][] results4 = new int[2][50];
     int[][] results5 = new int[2][50];
     int[][] results6 = new int[2][50];
-
+    int[][] results7 = new int[2][50];
+    int[][] results8 = new int[2][50];  
     //populates each of the arrays
     populateArray(one);
     populateArray(two);
@@ -117,14 +122,22 @@ public class SearchDriver{
     populateArray(four);
     populateArray(five);
     populateArray(six);
-
+    populateArray(seven);
+    populateArray(eight);
+    
     //populates the random arrays with integers in the range 0 to 2nd argument - 1
+    /*
+    populateRandom(randomNums3, 500000);
+    populateRandom(randomNums4, 1000000);
+    populateRandom(randomNums5, 7000000);
+    populateRandom(randomNums6, 8000000);    
     populateRandom(randomNums1, 100000);
     populateRandom(randomNums2, 200000);
     populateRandom(randomNums3, 500000);
     populateRandom(randomNums4, 1000000);
     populateRandom(randomNums5, 7000000);
     populateRandom(randomNums6, 8000000);
+    */
 
     //fills the result arrays
     fillResults(one, results1);
@@ -133,8 +146,8 @@ public class SearchDriver{
     fillResults(four, results4);
     fillResults(five, results5);
     fillResults(six, results6);
-
-    //prints it out for easy viewing
+    fillResults(seven, results7);
+    fillResults(eight, results8);
 /*
     print2DArray(results1);
     print2DArray(results2);
@@ -149,10 +162,8 @@ public class SearchDriver{
     averageTestTime(results4);
     averageTestTime(results5);
     averageTestTime(results6);
-    //things to add: something to find the average time, in milliseconds to find out which is faster
-    //maybe print out the random array?
-    //fix the binary search thing so it gives actual numbers (unless it actually is that fast)
-    //something to test out speed of binary search recursive vc binary search iterative
+    averageTestTime(results7);
+    averageTestTime(results8);   
   }
 }
 
