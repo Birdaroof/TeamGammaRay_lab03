@@ -37,3 +37,4 @@ Lab03 - Get Empirical
   - Extra test cases for smaller arrays added, large test cases removed
   - populateRandom() commented out, no longer needed/old code
   - We now run each test 10,000 times for a side by side comparison
+  - Updated README.md
