@@ -34,5 +34,6 @@ Lab03 - Get Empirical
 12/21/21 8:00 PM
   - Updated notes.txt with gallery tour section
   - Average time not displays float
-  - Extra test cases for smaller arrays added
+  - Extra test cases for smaller arrays added, large test cases removed
   - populateRandom() commented out, no longer needed/old code
+  - We now run each test 10,000 times for a side by side comparison
