@@ -71,16 +71,16 @@ public class SearchDriver{
   }
   
   public static void averageTestTime(int[][] results){
-    int binary = 0;
-    int linear = 0;
+    double binary = 0.0;
+    double linear = 0.0;
     for (int i = 0; i < results[0].length; i++){
       binary += results[0][i];
     }
     for (int i = 0; i < results[0].length; i++){
       linear += results[1][i];
     }
-    binary = binary / results[0].length;
-    linear = linear / results[1].length;
+    binary = binary / (double)results[0].length;
+    linear = linear / (double)results[1].length;
     System.out.println("Binary Average: " + binary);
     System.out.println("Linear Average: " + linear);
   }
