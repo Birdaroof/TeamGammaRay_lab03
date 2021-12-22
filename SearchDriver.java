@@ -71,8 +71,8 @@ public class SearchDriver{
   }
   
   public static void averageTestTime(int[][] results){
-    float binary = 0.0;
-    float linear = 0.0;
+    float binary = 0;
+    float linear = 0;
     for (int i = 0; i < results[0].length; i++){
       binary += results[0][i];
     }
